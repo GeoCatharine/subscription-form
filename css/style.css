@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    background-color: #374045;
+}
+
+* {box-sizing: border-box}
+
+.container {
+    margin: 100px 300px;
+}
+
+.box {
+    height: 600px;
+    width: 1100px;
+    margin: 0 auto;
+    background-color: #e1d89f;
+    border-radius: 15px;
+    display: flex;
+}
+
+.add {
+    position: relative;
+    width: 40%;
+
+}
+
+.cover {
+    position: absolute;
+    height: 600px;
+    width: 440px;
+    opacity: 1;
+}
+
+.magic {
+    display: none;
+    width: 660px;
+    height: 600px;
+    position: absolute;
+    z-index: 1;
+    background-image: url('../img/magic.jpg') center center no-repeat;
+}
+
+
+.form {
+    border-right: #374045 5px solid;
+    width: 60%;
+    padding: 15px 30px;
+    z-index: 2;
+}
+
+h1 {
+    font-family: 'Potta One', cursive;
+    color: #2c061f;
+    font-size: 40px;
+}
+
+p{
+    font-family: 'Fraunces', serif;
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    margin: 10px auto;
+    display: block;
+    border: none;
+    border-bottom: #374045 4px dashed;
+    background-color: #b8ad6c;
+    font-size: 30px;
+    border-radius: 5px;
+    padding-left: 20px;
+    outline: none;
+}  
+
+
+  input:-webkit-autofill,
+  input:-webkit-autofill:hover, 
+  input:-webkit-autofill:focus, 
+  input:-webkit-autofill:active {
+      -webkit-box-shadow: 0 0 0 30px #b8ad6c inset;
+      box-shadow: 0 0 0 30px #b8ad6c inset;
+      outline: none;
+  }
+
+label {
+    font-size: 20px;
+    margin-left: 20px;
+    font-family: 'Potta One', cursive;
+}
+
+.register {
+    background-color: #d89216;
+    color: white;
+    padding: 16px 20px;
+    margin: 20px 25%;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+    opacity: 0.9;
+    border-radius: 5px;
+  }
+  
+  .register:hover {
+    opacity:1;
+  }
+
+  .register:focus {
+    outline: none;
+  }
+
+  .validated {
+      background-color: #bad8b8 !important;
+  }
+
+  .subscribed {
+      background: url(../img/magic.jpg) center center no-repeat;
+      display:none;
+  }
