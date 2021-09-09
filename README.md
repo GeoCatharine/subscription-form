@@ -7,4 +7,7 @@
   <li>set interval</li>
   <li>basic functions</li>
   <li>if/else</li>
+  <li>picture looping add</li>
 </ul>
+<br>
+<h2>preview</h2>
